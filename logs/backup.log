@@ -1,0 +1,48 @@
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _7af2652ce5fd9b97 -p********** _7af2652ce5fd9b97 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./hostal.com/private/backups/20231019_180002-hostal_com-database.sql.gz
+
+Backup Summary for hostal.com at 2023-10-19 18:00:02.727710
+Config  : ./hostal.com/private/backups/20231019_180002-hostal_com-site_config_backup.json 94.0B
+Database: ./hostal.com/private/backups/20231019_180002-hostal_com-database.sql.gz         265.8KiB
+Backup for Site hostal.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _7af2652ce5fd9b97 -p********** _7af2652ce5fd9b97 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./hostal.com/private/backups/20231020_120002-hostal_com-database.sql.gz
+
+Backup Summary for hostal.com at 2023-10-20 12:00:03.116215
+Config  : ./hostal.com/private/backups/20231020_120002-hostal_com-site_config_backup.json 94.0B
+Database: ./hostal.com/private/backups/20231020_120002-hostal_com-database.sql.gz         270.5KiB
+Backup for Site hostal.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _7af2652ce5fd9b97 -p********** _7af2652ce5fd9b97 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./hostal.com/private/backups/20231020_180001-hostal_com-database.sql.gz
+
+Backup Summary for hostal.com at 2023-10-20 18:00:02.649773
+Config  : ./hostal.com/private/backups/20231020_180001-hostal_com-site_config_backup.json 94.0B
+Database: ./hostal.com/private/backups/20231020_180001-hostal_com-database.sql.gz         320.3KiB
+Backup for Site hostal.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _7af2652ce5fd9b97 -p********** _7af2652ce5fd9b97 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./hostal.com/private/backups/20231023_120001-hostal_com-database.sql.gz
+
+Backup Summary for hostal.com at 2023-10-23 12:00:02.649863
+Config  : ./hostal.com/private/backups/20231023_120001-hostal_com-site_config_backup.json 94.0B
+Database: ./hostal.com/private/backups/20231023_120001-hostal_com-database.sql.gz         322.5KiB
+Backup for Site hostal.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _7af2652ce5fd9b97 -p********** _7af2652ce5fd9b97 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./hostal.com/private/backups/20231030_120002-hostal_com-database.sql.gz
+
+Backup Summary for hostal.com at 2023-10-30 12:00:03.409607
+Config  : ./hostal.com/private/backups/20231030_120002-hostal_com-site_config_backup.json 94.0B
+Database: ./hostal.com/private/backups/20231030_120002-hostal_com-database.sql.gz         358.5KiB
+Backup for Site hostal.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _7af2652ce5fd9b97 -p********** _7af2652ce5fd9b97 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./hostal.com/private/backups/20231031_120004-hostal_com-database.sql.gz
+
+Backup Summary for hostal.com at 2023-10-31 12:00:06.869484
+Config  : ./hostal.com/private/backups/20231031_120004-hostal_com-site_config_backup.json 94.0B
+Database: ./hostal.com/private/backups/20231031_120004-hostal_com-database.sql.gz         358.5KiB
+Backup for Site hostal.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _7af2652ce5fd9b97 -p********** _7af2652ce5fd9b97 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./hostal.com/private/backups/20231102_120002-hostal_com-database.sql.gz
+
+Backup Summary for hostal.com at 2023-11-02 12:00:03.286300
+Config  : ./hostal.com/private/backups/20231102_120002-hostal_com-site_config_backup.json 94.0B
+Database: ./hostal.com/private/backups/20231102_120002-hostal_com-database.sql.gz         358.5KiB
+Backup for Site hostal.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _7af2652ce5fd9b97 -p********** _7af2652ce5fd9b97 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./hostal.com/private/backups/20231102_180002-hostal_com-database.sql.gz
+
+Backup Summary for hostal.com at 2023-11-02 18:00:02.889990
+Config  : ./hostal.com/private/backups/20231102_180002-hostal_com-site_config_backup.json 94.0B
+Database: ./hostal.com/private/backups/20231102_180002-hostal_com-database.sql.gz         358.5KiB
+Backup for Site hostal.com has been successfully completed

@@ -1,0 +1,60 @@
+2023-10-19 16:25:02,225 DEBUG cd /home/ashil/Hostel-bench && /usr/bin/virtualenv --quiet env -p python3
+2023-10-19 16:25:02,550 DEBUG cd /home/ashil/Hostel-bench && /home/ashil/Hostel-bench/env/bin/python -m pip install --quiet --upgrade pip
+2023-10-19 16:25:09,784 LOG Getting frappe
+2023-10-19 16:25:09,784 DEBUG cd Hostel-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-14 --depth 1 --origin upstream
+2023-10-19 16:25:21,228 LOG Installing frappe
+2023-10-19 16:25:21,229 DEBUG cd /home/ashil/Hostel-bench && /home/ashil/Hostel-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ashil/Hostel-bench/apps/frappe 
+2023-10-19 16:25:59,396 DEBUG cd /home/ashil/Hostel-bench/apps/frappe && yarn install
+2023-10-19 16:26:15,740 DEBUG cd Hostel-bench && bench build
+2023-10-19 16:26:15,995 INFO /usr/local/bin/bench build
+2023-10-19 16:26:34,237 LOG setting up backups
+2023-10-19 16:26:34,252 LOG backups were set up
+2023-10-19 16:26:34,252 INFO Bench Hostel-bench initialized
+2023-10-19 16:33:34,196 INFO /usr/local/bin/bench start
+2023-10-19 16:33:35,328 INFO /usr/local/bin/bench worker --queue default
+2023-10-19 16:33:35,332 INFO /usr/local/bin/bench serve --port 8001
+2023-10-19 16:33:35,343 INFO /usr/local/bin/bench schedule
+2023-10-19 16:33:35,349 INFO /usr/local/bin/bench worker --queue long
+2023-10-19 16:33:35,350 INFO /usr/local/bin/bench watch
+2023-10-19 16:33:35,352 INFO /usr/local/bin/bench worker --queue short
+2023-10-19 16:35:14,692 INFO /usr/local/bin/bench new-site hostal.com
+2023-10-19 16:36:58,780 INFO /usr/local/bin/bench use hostal.com
+2023-10-19 16:39:33,203 INFO /usr/local/bin/bench new-app hostal_management
+2023-10-19 16:39:33,885 LOG creating new app hostal_management
+2023-10-19 16:41:01,200 LOG Installing hostal_management
+2023-10-19 16:41:01,200 DEBUG cd /home/ashil/Hostel-bench && /home/ashil/Hostel-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ashil/Hostel-bench/apps/hostal_management 
+2023-10-19 16:41:03,529 DEBUG bench build --app hostal_management
+2023-10-19 16:41:03,788 INFO /usr/local/bin/bench build --app hostal_management
+2023-10-19 16:42:40,851 INFO /usr/local/bin/bench start
+2023-10-19 16:42:41,981 INFO /usr/local/bin/bench schedule
+2023-10-19 16:42:41,983 INFO /usr/local/bin/bench watch
+2023-10-19 16:42:41,986 INFO /usr/local/bin/bench worker --queue short
+2023-10-19 16:42:41,986 INFO /usr/local/bin/bench worker --queue default
+2023-10-19 16:42:41,995 INFO /usr/local/bin/bench serve --port 8001
+2023-10-19 16:42:42,006 INFO /usr/local/bin/bench worker --queue long
+2023-10-19 16:48:04,366 INFO /usr/local/bin/bench --site hostel.com install-app hostal_management
+2023-10-19 16:49:04,471 INFO /usr/local/bin/bench --site hostal.com install-app hostal_management
+2023-10-19 16:50:41,101 INFO /usr/local/bin/bench set-config -g developer_mode true
+2023-10-19 16:52:59,895 INFO /usr/local/bin/bench set-config -g developer_mode true
+2023-10-19 16:54:05,167 INFO /usr/local/bin/bench start
+2023-10-19 16:54:06,295 INFO /usr/local/bin/bench serve --port 8001
+2023-10-19 16:54:06,306 INFO /usr/local/bin/bench watch
+2023-10-19 16:54:06,306 INFO /usr/local/bin/bench worker --queue default
+2023-10-19 16:54:06,315 INFO /usr/local/bin/bench worker --queue short
+2023-10-19 16:54:06,317 INFO /usr/local/bin/bench worker --queue long
+2023-10-19 16:54:06,324 INFO /usr/local/bin/bench schedule
+2023-10-19 18:00:01,974 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-20 12:00:02,086 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-20 18:00:01,521 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-23 11:24:23,618 INFO /usr/local/bin/bench start
+2023-10-23 11:24:25,214 INFO /usr/local/bin/bench serve --port 8001
+2023-10-23 11:24:25,215 INFO /usr/local/bin/bench schedule
+2023-10-23 11:24:25,234 INFO /usr/local/bin/bench worker --queue default
+2023-10-23 11:24:25,305 INFO /usr/local/bin/bench watch
+2023-10-23 11:24:25,332 INFO /usr/local/bin/bench worker --queue long
+2023-10-23 11:24:25,396 INFO /usr/local/bin/bench worker --queue short
+2023-10-23 12:00:01,608 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-30 12:00:02,058 INFO /usr/local/bin/bench --verbose --site all backup
+2023-10-31 12:00:02,744 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-02 12:00:01,878 INFO /usr/local/bin/bench --verbose --site all backup
+2023-11-02 18:00:01,629 INFO /usr/local/bin/bench --verbose --site all backup
